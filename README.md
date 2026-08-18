@@ -107,12 +107,6 @@ When prompted, enter or paste the path to your CSV file, such as:
 all_players_cleaned.csv
 ```
 
-or
-
-```text
-2016_17_u23_players.csv
-```
-
 ### 3. Generate the Full Leaderboard CSV
 
 To process the entire player pool and export every ranked player into a clean output file:
