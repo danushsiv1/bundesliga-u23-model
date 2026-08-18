@@ -122,7 +122,7 @@ The resulting CSV contains the final ranked players and their projection metrics
 ## 🛠️ Technical Architecture & Repository Structure
 
 ```text
-bundesliga-u23-model/
+src/
 │
 ├── all_players_cleaned.csv          # Master scouting dataset
 ├── 2016_17_u23_players.csv          # Historical validation dataset
@@ -130,10 +130,8 @@ bundesliga-u23-model/
 ├── projection_model.py              # Core 4-layer projection pipeline & terminal display engine
 ├── run_full_leaderboard.py          # Batch runner script for complete CSV export
 │
-├── output/
+└── output/
 │   └── u23_projection_leaderboard.csv  # Final ranked export containing all metrics
-│
-└── README.md                        # Executive project documentation
 ```
 
 ---
